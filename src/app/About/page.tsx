@@ -1,7 +1,8 @@
 import React from 'react'
 import AboutHero from '../components/aboutHero'
-import AboutSection from '../components/aboutSection'
-import AboutPopularProduct from '../components/aboutPopularProduct';
+import AboutSection from '../components/aboutSections';
+import AboutPopularProduct from '../components/aboutPopularProducts';
+import About from "@/app/About/page"
 
 const page = () => {
     return (
@@ -9,6 +10,7 @@ const page = () => {
         <AboutHero />
             <AboutSection />
             <AboutPopularProduct />
+            <About />
             
       </div>
     );

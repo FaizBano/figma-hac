@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className="w-full sm:w-1/2 mt-6 sm:mt-0 sm:ml-[130px] flex justify-center">
           <Image
-            src="/Product Image.png"
+            src="/product.png"
             alt="Product Image"
             width={434}
             height={584}

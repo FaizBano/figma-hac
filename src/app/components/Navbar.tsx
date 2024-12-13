@@ -76,7 +76,7 @@ const Navbar = () => {
           <Link href="/faq" className="text-[14px] font-medium">
             Pages
           </Link>
-          <Link href="/about" className="text-[14px] font-medium">
+          <Link href="/About" className="text-[14px] font-medium">
             About
           </Link>
         </div>

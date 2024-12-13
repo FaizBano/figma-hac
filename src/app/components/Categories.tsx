@@ -6,19 +6,19 @@ export default function Categories() {
     {
       name: "Wing Chair",
       products: "3,584 Products",
-      image: "/07.jpg",
+      image: "/p1.png",
       href: "/categories/wing-chair",
     },
     {
       name: "Wooden Chair",
       products: "157 Products",
-      image: "/08.jpg",
+      image: "/wood1.png",
       href: "/categories/wooden-chair",
     },
     {
       name: "Desk Chair",
       products: "154 Products",
-      image: "/04.jpg",
+      image: "/p3.png",
       href: "/categories/desk-chair",
     },
   ];

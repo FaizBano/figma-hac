@@ -1,25 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Categories() {
-  const categories = [
+export default function Catagories() {
+  const catagories = [
     {
       name: "Wing Chair",
       products: "3,584 Products",
-      image: "/07.jpg",
-      href: "/categories/wing-chair",
+      image: "/wood.png",
+      href: "/catagories/wing-chair",
     },
     {
       name: "Wooden Chair",
       products: "157 Products",
-      image: "/08.jpg",
-      href: "/categories/wooden-chair",
+      image: "/wood1.png",
+      href: "/catagories/wooden-chair",
     },
     {
       name: "Desk Chair",
       products: "154 Products",
-      image: "/04.jpg",
-      href: "/categories/desk-chair",
+      image: "/wood2.png",
+      href: "/catagories/desk-chair",
     },
   ];
 
@@ -30,7 +30,7 @@ export default function Categories() {
           Top Categories
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {categories.map((category) => (
+          {catagories.map((category) => (
             <Link
               key={category.name}
               href={"../components/productDectription/discription"}

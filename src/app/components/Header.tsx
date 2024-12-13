@@ -2,6 +2,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Header = () => {
   return (
     <div className="w-full bg-[#F0F2F3] pt-[20px] pb-[20px] h-[84px]">
